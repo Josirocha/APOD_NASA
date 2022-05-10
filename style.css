@@ -3,20 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #16161a;
+
+body {
+  background-image: url('./img/espaco.jpg');
 }
-header{
+
+header {
   display: flex;
   justify-content: center;
 }
-h4,h1{
+.logo{
+  padding-top: 16px;
+}
+
+h2, h3 {
   color: #fffffe;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  
 }
-p{
-  color: #94a1b2;
+
+p {
+  color: #72757e;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
-.datefield,.button{
+
+.datefield,
+.button {
   padding: 8px 16px;
   border-radius: 8px;
   border: 2px solid #72757e;
@@ -25,30 +43,52 @@ p{
   cursor: pointer;
   font-size: 16px;
 }
-.datefield:hover{
+
+.datefield:hover {
   border-color: #7f5af0;
 }
-.button{
-  background-color:#7f5af0;
+
+.button {
+  background-color: #7f5af0;
   border-color: #422d81;
-  color:#fffffe;
+  color: #fffffe;
   font-weight: 600;
 }
-.button:hover{
+
+.button:hover {
   border-color: #fffffe;
 }
-.container{
-  display:flex;
+.containerdate{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  gap: 10px;
+  
+}
+.container {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-img{
-  width: 50%;
-  border: 2px solid #72757e;
-  border-radius: 16px;
+
+#imagem {
+  width: 40%;
+  border-radius: 20px;
+  margin: 10px;
+  height: 400px
 }
-iframe{
- width: 600px;
- height: 315px;
-  border: 2px solid #72757e;
-  border-radius: 16px;
+
+iframe {
+  border-radius: 20px;
+}
+
+.info{
+  margin: 9px;
+  width: 40%;
+  padding-left: 16px; 
+ 
+}
+.linkimg{
+  width: 2em;
 }

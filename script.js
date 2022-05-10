@@ -1,5 +1,7 @@
 $('#video').hide();
 $('#imagem').hide();
+$('#dia').attr('max', new Date().toISOString().split("T")[0]);
+//não deixa escolher o dia depois do hoje
 
 $('#botao').click(function(){
   const escolhaSeuDia = $('#dia').val()
