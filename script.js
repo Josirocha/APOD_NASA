@@ -1,3 +1,6 @@
+$('#video').hide();
+$('#imagem').hide();
+
 $('#botao').click(function(){
   const escolhaSeuDia = $('#dia').val()
   $.ajax({
