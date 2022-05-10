@@ -14,14 +14,16 @@
     <h1> NASA API</h1>
   </header>
   <div>
-    <input type="date" id="dia"  min="1995-07-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-    <input type="submit" value="enviar" id="botao">
+    <input type="date" id="dia" class="datefield" min="1995-07-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+    <input type="submit" value="enviar" id="botao" class="button">
   </div>
-  <div>
-    <img id="imagem" src="" alt="">
-    <iframe id="video" src="" frameborder="0"></iframe>
-    <h4 id="titulo"></h4>
-    <p id="texto"></p>
+  <div class="container">
+      <img id="imagem" src="" alt="">
+      <iframe id="video" src="" ></iframe>
+    <div class="info">
+      <h4 id="titulo"></h4>
+      <p id="texto"></p>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
