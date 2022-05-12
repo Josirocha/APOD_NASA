@@ -92,3 +92,37 @@ iframe {
 .linkimg{
   width: 2em;
 }
+
+@media(max-width:414px){
+  .container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #imagem{
+    height: 200px;
+    width: 70%;
+  }
+  .info{
+    width: 80%;
+    height: 300px;
+  }
+  #video{
+    width: 300px;
+  }
+}
+
+@media(max-width:915px){
+  .container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .info{
+    width: 90%;
+    height: 300px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
